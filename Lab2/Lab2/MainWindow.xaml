@@ -7,6 +7,31 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid ShowGridLines="True">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+
+                <RowDefinition Height="4*" />
+
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+
+            <Label Content="Label" Grid.Row="0" Grid.Column="1" 
+               HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+            <TextBox Text="TextBox" Grid.Row="1" TextWrapping="Wrap" 
+                 AcceptsReturn="True" Grid.ColumnSpan="3"/>
+
+            <Button Content="Button" Grid.Row="2" Grid.Column="1"/>
+        </Grid>
 
     </Grid>
 </Window>
