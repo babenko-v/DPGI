@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="500">
             <Label Content="Label" HorizontalAlignment="Center"/>
 
@@ -18,6 +19,8 @@
             <TextBox Text="TextBox" Width="500"/>
             <Button Content="Button" Width="150" HorizontalAlignment="Center" Margin="50"/>
         </StackPanel>
+=======
+>>>>>>> parent of f48fa83 (save xaml code)
 =======
 >>>>>>> parent of f48fa83 (save xaml code)
 
