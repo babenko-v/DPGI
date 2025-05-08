@@ -9,21 +9,21 @@
   </PropertyGroup>
 
 
+	
 	<ItemGroup>
 
-		<None Remove="images\folder.png" />
+		<None Remove="images\folder_file.png" />
 		<None Remove="images\broom.png" />
 		<None Remove="images\copy-two-paper-sheets-interface-symbol.png" />
-		<None Remove="images\paste.png" />
+		<None Remove="images\paste_file.png" />
 	</ItemGroup>
 
-
 	<ItemGroup>
-	
+		
 		<Resource Include="images\copy-two-paper-sheets-interface-symbol.png"/>
-		<Resource Include="images\folder.png" />
+		<Resource Include="images\folder_file.png" />
 		<Resource Include="images\broom.png" />
-		<Resource Include="images\paste.png" />
+		<Resource Include="images\paste_file.png" />
 	</ItemGroup>
 
 </Project>
