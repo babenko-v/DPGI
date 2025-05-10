@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+
+	
+	<ItemGroup>
+
+		<None Remove="images\folder_file.png" />
+		<None Remove="images\broom.png" />
+		<None Remove="images\copy-two-paper-sheets-interface-symbol.png" />
+		<None Remove="images\paste_file.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		
+		<Resource Include="images\copy-two-paper-sheets-interface-symbol.png"/>
+		<Resource Include="images\folder_file.png" />
+		<Resource Include="images\broom.png" />
+		<Resource Include="images\paste_file.png" />
+	</ItemGroup>
+
+</Project>
